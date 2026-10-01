@@ -1,5 +1,3 @@
-export const navLinks = ["home", "shop", "about", "contact"];
-
 import DiscoverDesktopImage from "@/assets/images/desktop-image-hero-1.jpg";
 import DiscoverMobileImage from "@/assets/images/mobile-image-hero-1.jpg";
 
@@ -8,8 +6,11 @@ import AvailableMobileImage from "@/assets/images/mobile-image-hero-2.jpg";
 
 import ManufacturedDesktopImage from "@/assets/images/desktop-image-hero-3.jpg";
 import ManufacturedMobileImage from "@/assets/images/mobile-image-hero-3.jpg";
+import type { HeroContentTypes, Navlink } from "@/lib/types";
 
-export const HeroContent = [
+export const navLinks: Navlink[] = ["home", "shop", "about", "contact"];
+
+export const HeroContent: HeroContentTypes[] = [
   {
     id: 1,
     heading: "Discover innovative ways to decorate",
