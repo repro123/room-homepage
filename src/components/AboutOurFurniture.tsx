@@ -1,7 +1,7 @@
 function AboutOurFurniture() {
   return (
     <div className="p-12 flex flex-col justify-center">
-      <h2 className="font-semibold uppercase tracking-[1ch]">About our furniture</h2>
+      <h2 className="font-bold uppercase tracking-[1ch]">About our furniture</h2>
 
       <p className="mt-6">
         Our multifunctional collection blends design and function to suit your individual taste. Make each room unique,
