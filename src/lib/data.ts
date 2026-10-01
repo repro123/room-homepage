@@ -10,7 +10,7 @@ import type { HeroContentTypes, Navlink } from "@/lib/types";
 
 export const navLinks: Navlink[] = ["home", "shop", "about", "contact"];
 
-export const HeroContent: HeroContentTypes[] = [
+export const heroContent: HeroContentTypes[] = [
   {
     id: 1,
     heading: "Discover innovative ways to decorate",
