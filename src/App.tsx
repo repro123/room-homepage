@@ -1,13 +1,10 @@
-import MobileHeader from "@/components/Header";
+import SectionOne from "@/components/SectionOne";
 import SectionTwo from "@/components/SectionTwo";
 
 function App() {
   return (
     <main>
-      <section>
-        <MobileHeader />
-      </section>
-
+      <SectionOne />
       <SectionTwo />
     </main>
   );
