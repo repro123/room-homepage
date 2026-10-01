@@ -1,21 +1,15 @@
 import MobileHeader from "@/components/Header";
-import AboutOurFurniture from "@/components/AboutOurFurniture";
+import SectionTwo from "@/components/SectionTwo";
 
 function App() {
   return (
-    <>
+    <main>
       <section>
         <MobileHeader />
       </section>
 
-      <section className="grid lg:grid-cols-3">
-        <div></div>
-
-        <AboutOurFurniture />
-
-        <div></div>
-      </section>
-    </>
+      <SectionTwo />
+    </main>
   );
 }
 
