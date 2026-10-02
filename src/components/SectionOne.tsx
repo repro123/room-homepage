@@ -1,4 +1,3 @@
-import Header from "@/components/Header";
 import Picture from "@/components/Picture";
 
 import RightArrow from "@/assets/images/icon-arrow.svg";
@@ -33,7 +32,6 @@ function SectionOne() {
 
   return (
     <section aria-label="Featured furniture" aria-roledescription="carousel" className="grid lg:grid-cols-[3fr_2fr]">
-      <Header />
       <Picture
         desktopSrc={heroItem.desktopImage}
         mobileSrc={heroItem.mobileImage}

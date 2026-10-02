@@ -14,7 +14,7 @@ function Header() {
   }
 
   return (
-    <header className="fixed top-8 w-full">
+    <header className="fixed top-8 w-full z-10">
       <div className="max-w-7xl px-6 mx-auto w-full flex items-center gap-16 max-md:justify-between">
         <button
           className="cursor-pointer md:hidden text-white"
