@@ -4,6 +4,7 @@ import { useState } from "react";
 import { navLinks } from "@/lib/data";
 
 import { X, Menu } from "lucide-react";
+import NavLink from "@/components/NavLink";
 
 function Header() {
   const [openMenu, setOpenMenu] = useState(false);
@@ -30,9 +31,7 @@ function Header() {
           {" "}
           <ul className="flex items-center gap-6">
             {navLinks.map((link) => (
-              <li key={link} className="font-bold">
-                <a href="#">{link}</a>
-              </li>
+              <NavLink link={link} key={link} />
             ))}
           </ul>
         </nav>
@@ -44,9 +43,7 @@ function Header() {
         <nav className="bg-white text-black md:hidden">
           <ul className="flex flex-col justify-center p-6 items-center gap-4">
             {navLinks.map((link) => (
-              <li key={link} className="font-bold">
-                <a href="#">{link}</a>
-              </li>
+              <NavLink link={link} key={link} />
             ))}
           </ul>
         </nav>
