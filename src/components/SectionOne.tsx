@@ -45,7 +45,10 @@ function SectionOne() {
 
           <p>{heroItem.paragraph}</p>
 
-          <a href="#" className="uppercase font-bold tracking-[1ch] flex items-center">
+          <a
+            href="#"
+            className="uppercase font-bold tracking-[1ch] flex items-center hover:opacity-60 transition-opacity"
+          >
             Shop now <img src={RightArrow} alt="" />
           </a>
         </div>
