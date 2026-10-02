@@ -19,6 +19,7 @@ function Header() {
         <button
           className="cursor-pointer md:hidden text-white"
           aria-expanded={openMenu}
+          aria-controls="mobileNav"
           aria-label={openMenu ? "Close menu" : "Open menu"}
           onClick={handleOpenMenu}
         >
@@ -40,7 +41,7 @@ function Header() {
       </div>
 
       {openMenu && (
-        <nav className="bg-white text-black md:hidden">
+        <nav className="bg-white text-black md:hidden" id="mobileNav">
           <ul className="flex flex-col justify-center p-6 items-center gap-4">
             {navLinks.map((link) => (
               <NavLink link={link} key={link} />
