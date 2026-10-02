@@ -7,11 +7,11 @@ import AboutImageLight from "@/assets/images/image-about-light.jpg";
 function SectionTwo() {
   return (
     <section className="grid lg:grid-cols-3">
-      <AboutImage src={AboutImageDark} alt="Dark Furnitures" />
+      <AboutImage src={AboutImageDark} alt="" />
 
       <AboutOurFurniture />
 
-      <AboutImage src={AboutImageLight} alt="Light Furnitures" />
+      <AboutImage src={AboutImageLight} alt="" />
     </section>
   );
 }
